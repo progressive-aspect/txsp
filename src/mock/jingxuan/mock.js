@@ -1,0 +1,55 @@
+let Mock = require("mockjs")
+
+let data = {
+    head:[
+        {
+            image:"https://puui.qpic.cn/tv/0/1242148069_1080607/0?max_age=7776000",
+            txt:"【谈恋爱】黄子韬宋祖儿演绎逆转时空相遇"
+        },
+        {
+            image:"https://puui.qpic.cn/tv/0/1242146560_1080607/0?max_age=7776000",
+            txt:"【红眼镜猪猪☺爱看动画】用心唤醒创造力"
+        },
+        {
+            image:"https://puui.qpic.cn/tv/0/1242097750_1080607/0?max_age=7776000",
+            txt:"【BBC冰冻星球】 气候变暖两极的冰川还剩多少"
+        },
+        {
+            image:"https://puui.qpic.cn/tv/0/1242203230_1080607/0?max_age=7776000",
+            txt:"【狙击手⚡张艺谋】志愿军以血肉之躯保家卫国"
+        }
+    ],
+    floor:[
+            {
+                image:"https://puui.qpic.cn/tv/0/1242183259_1080607/0?max_age=7776000",
+                name:"烽烟尽处·更新",
+                info:"张翰焦俊艳燃情抗战"
+            },
+            {
+                image:"https://puui.qpic.cn/tv/0/1242187629_1080607/0?max_age=7776000",
+                name:"烽烟尽处·更新",
+                info:"张翰焦俊艳燃情抗战"
+            },
+            {
+                image:"https://puui.qpic.cn/vcover_hz_pic/0/m441e3rjq9kwpsc1648255354751/0?max_age=7776000",
+                name:"烽烟尽处·更新",
+                info:"张翰焦俊艳燃情抗战"
+            },
+            {
+                image:"https://puui.qpic.cn/vcover_hz_pic/0/mzc00200azkttu21624437614921/0?max_age=7776000",
+                name:"烽烟尽处·更新",
+                info:"张翰焦俊艳燃情抗战"
+            },
+            {
+                image:"https://puui.qpic.cn/vcover_hz_pic/0/mzc00200ggsskkk1646731440298/0?max_age=7776000",
+                name:"烽烟尽处·更新",
+                info:"张翰焦俊艳燃情抗战"
+            },
+            {
+                image:"https://puui.qpic.cn/vcover_hz_pic/0/hzgtnf6tbvfekfv1603590782205/0?max_age=7776000",
+                name:"烽烟尽处·更新",
+                info:"张翰焦俊艳燃情抗战"
+            }
+    ]
+}
+Mock.mock("/api/jingxuan",data)
